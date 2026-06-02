@@ -95,7 +95,7 @@
 
             <div class="hero-quick-nav">
 
-                <a href="#price">💰 料金</a>
+                <a href="#price">💰 コース料金</a>
                 <a href="#beginner">🔰 初心者デビュー</a>
                 <a href="#voice">💬 お客様の声</a>
                 <a href="#area">📍 出張エリア</a>
@@ -895,110 +895,98 @@
 
 
 
-    <section id="form" class="section">
-
-        <div class="container">
-
-            <h2 class="section-title center">お申し込みフォーム</h2>
-
-            <p class="form-safe-mini">
-
-                ※しつこい営業はありません。<br>
-
-                ※日程は確定前に必ず確認します。<br>
-
-                ※相談だけでもOKです。
-
+    <section class="section calendar-section">
+        <div class="container center">
+            <h2 class="section-title">📅 空き状況のご確認</h2>
+    
+            <p class="calendar-lead">
+                カレンダーで空き状況をご確認のうえ、<br>
+                下記フォームから第1・第2希望をご入力ください。
             </p>
-
-            <form action="https://formspree.io/f/xykvyvkv" method="POST">
-
-                <label>お名前 <span class="required">必須</span></label>
-
-                <input type="text" name="name" placeholder="例：教習 太郎" required>
-
-
-
-                <label>メールアドレス <span class="required">必須</span></label>
-
-                <input type="email" name="email" placeholder="例：example@gmail.com" required>
-
-
-
-                <label>電話番号 <span class="required">必須</span></label>
-
-                <input type="tel" name="phone" placeholder="例：090-1234-5678" required>
-
-
-
-                <label>住所（市区町村まででもOK） <span class="required">必須</span></label>
-
-                <input type="text" name="address" placeholder="例：三重県桑名市" required>
-
-
-
-                <label>希望コース <span class="required">必須</span></label>
-
-                <select name="course" required>
-
-                    <option value="">選択してください</option>
-
-                    <option>基本安心コース</option>
-
-                    <option>応用実践コース</option>
-
-                    <option>2日間コース</option>
-
-                    <option>オーダーメイド</option>
-
-                    <option>練習コースデビュー安心プラン</option>
-
-                </select>
-
-
-
-                <label>使用車両（任意）</label>
-
-                <select name="car">
-
-                    <option value="">選択してください</option>
-
-                    <option>マイカー（車種がわかれば記入）</option>
-
-                    <option>教習車（無料）</option>
-
-                </select>
-
-
-
-                <label>希望日時（第1希望） <span class="required">必須</span></label>
-
-                <input type="text" name="date1" placeholder="例：〇月〇日 午前 / 9時以降など" required>
-
-
-
-                <label>希望日時（第2希望）任意</label>
-
-                <input type="text" name="date2" placeholder="例：〇月〇日 午後 / 13時以降など">
-
-
-
-                <label>ご相談内容（任意）</label>
-
-                <textarea name="message" placeholder="例：駐車が苦手なので重点的に練習したい"></textarea>
-
-                <input type="hidden" name="_next" value="https://anshin-driving.com/thanks.html">
-
-                <button type="submit" class="btn hero-btn-main">
-
-                    この内容で申し込む
-
-                </button>
-
-            </form>
-
+    
+            <div class="calendar-wrap">
+                <iframe
+                    src="https://calendar.google.com/calendar/embed?src=c47988eee2098637a1d4873c18cb795c16f70f0aa259cfff45f7b02ec310bc48@group.calendar.google.com"></iframe>
+            </div>
+    
         </div>
-
+    </section>
+    
+    <section id="form" class="section">
+        <h2 class="section-title center">お申し込みフォーム</h2>
+    
+        <p class="form-safe-mini">
+            ※しつこい営業はありません。<br>
+            ※日程は確定前に必ず確認します。<br>
+            ※相談だけでもOKです。
+        </p>
+    
+        <form action="https://formspree.io/f/xykvyvkv" method="POST">
+    
+            <label>お名前 <span class="required">必須</span></label>
+    
+            <input type="text" name="name" placeholder="例：教習 太郎" required>
+    
+            <label>メールアドレス <span class="required">必須</span></label>
+    
+            <input type="email" name="email" placeholder="例：example@gmail.com" required>
+    
+            <label>電話番号 <span class="required">必須</span></label>
+    
+            <input type="tel" name="phone" placeholder="例：090-1234-5678" required>
+    
+            <label>住所（市区町村まででもOK） <span class="required">必須</span></label>
+    
+            <input type="text" name="address" placeholder="例：岐阜県大垣市" required>
+    
+            <label>希望コース <span class="required">必須</span></label>
+            <select name="course" required>
+    
+                <option value="">選択してください</option>
+    
+                <option>基本安心コース</option>
+                <option>応用実践コース</option>
+                <option>まとめてマスターコース</option>
+                <option>オーダーメイドコース</option>
+                <option>練習コースデビュー安心プラン</option>
+    
+            </select>
+    
+            <label>使用車両（任意）</label>
+            <select name="car">
+    
+                <option value="">選択してください</option>
+    
+                <option>マイカー（車種がわかれば記入）</option>
+                <option>教習車（無料）</option>
+    
+            </select>
+    
+            <label>希望日時（第1希望） <span class="required">必須</span></label>
+            <input type="datetime-local" name="date1" required>
+            <p style="font-size:13px; color:#666;">
+                ※9:00〜17:00の間でご選択ください
+            </p>
+    
+            <label>希望日時（第2希望）任意</label>
+            <input type="datetime-local" name="date2">
+            <p style="font-size:13px; color:#666;">
+                ※9:00〜17:00の間でご選択ください
+            </p>
+    
+            <label>ご相談内容（任意）</label>
+            <textarea name="message" placeholder="例：駐車が苦手なので重点的に練習したい"></textarea>
+    
+            <input type="hidden" name="_next" value="https://anshin-driving.com/thanks.html">
+    
+            <button type="submit" class="btn hero-btn-main">
+    
+                この内容で申し込む
+    
+            </button>
+    
+        </form>
+    
     </section>
 
     <section class="section area-section" id="area">

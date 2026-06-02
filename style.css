@@ -20,7 +20,7 @@ body {
     font-family: 'Noto Sans JP', sans-serif;
     line-height: 1.6;
     color: var(--text-color);
-    background-color:#f9f9f9;
+    background-color: #f9f9f9;
     -webkit-font-smoothing: antialiased;
 }
 
@@ -306,7 +306,7 @@ header {
 section:target {
     background: #fff3cd;
     transition: all 0.5s ease;
-    padding: 20px;
+
     border-radius: 10px;
     box-shadow: 0 0 0 3px rgba(255, 193, 7, 0.4);
 }
@@ -555,6 +555,36 @@ section:target {
 .profile-text {
     font-size: 15px;
     margin-bottom: 10px;
+}
+
+/* --- カレンダー --- */
+.calendar-section {
+    background: #f8fbff;
+    padding: 60px 20px;
+}
+
+.calendar-lead {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #555;
+}
+
+.calendar-wrap {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    min-height: 700px;
+    /* ← 最低限の高さを確保 */
+}
+
+
+.calendar-wrap iframe {
+    width: 100%;
+    height: 700px !important;
+    /* !important は値の直後にスペースを空けて記述します */
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
 /* --- お問い合わせ (CTA) --- */
@@ -1767,6 +1797,17 @@ footer {
         font-size: 20px;
     }
 
+    .calendar-wrap iframe {
+        height: 500px !important;
+    }
+
+    .calendar-lead {
+        font-size: 14px;
+    }
+
+    form {
+        padding: 0 16px;
+    }
 }
 
 @media (max-width: 600px) {
