@@ -1,6 +1,4 @@
-/* =========================
-   共通
-========================= */
+/* #region===== 共通===== */
 * {
     margin: 0;
     padding: 0;
@@ -54,21 +52,6 @@ img {
     transition: 0.3s;
 }
 
-.trust-numbers {
-    display: flex;
-    gap: 15px;
-    margin-bottom: 30px;
-}
-
-.trust-numbers span {
-    background: #fff;
-    border: 1px solid var(--main-color);
-    padding: 5px 10px;
-    font-size: 13px;
-    border-radius: 8px;
-    color: var(--main-color);
-}
-
 .hero-photo-wrap {
     position: relative;
     margin: 0 auto;
@@ -79,8 +62,6 @@ img {
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
-
-
 .keep-all {
     display: inline-block;
     white-space: nowrap;
@@ -90,10 +71,9 @@ img {
     background: linear-gradient(transparent 55%, #fff176 55%);
     padding: 0 4px;
 }
+/* #endregion===== 共通===== */
 
-/* =========================
-   ヘッダー
-========================= */
+/* #region===== ヘッダー===== */
 header {
     padding: 14px 0;
     background: rgba(255, 255, 255, 0.96);
@@ -195,10 +175,9 @@ header {
     padding: 8px 15px;
     border-radius: 50px;
 }
+/* #endregion===== ヘッダー===== */
 
-/* =========================
-   ファーストビュー
-========================= */
+/* #region===== ファーストビュー===== */
 .hero-new {
     background: linear-gradient(135deg, #f0fdf4 0%, #ffffff 100%);
     padding: 60px 0;
@@ -307,10 +286,9 @@ header {
     font-weight: bold;
     border: 4px solid #fff;
 }
+/* #endregion===== ファーストビュー===== */
 
-/* =========================
-   お悩み・特徴
-========================= */
+/* #region=====お悩み・特徴===== */
 .section-title {
     font-size: 28px;
     margin-bottom: 40px;
@@ -379,14 +357,12 @@ section:target {
     display: block;
     margin-bottom: 15px;
 }
+/* #endregion=====お悩み・特徴===== */
 
-/* =========================
-   料金
-========================= */
+/* #region=====料金===== */
 .price-bg {
     background-color: #fafafa;
 }
-
 
 .single-price {
     display: grid;
@@ -554,7 +530,6 @@ section:target {
     font-size: 14px;
     font-weight: bold;
 }
-
 
 .option-price-box {
     margin: 40px auto;
@@ -818,10 +793,9 @@ section:target {
     font-size: 14px;
     color: #666;
 }
+/* #endregion=====料金===== */
 
-/* =========================
-   ご利用の流れ
-========================= */
+/* #region=====ご利用の流れ===== */
 .flow-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -848,10 +822,9 @@ section:target {
     margin-bottom: 0;
     line-height: 1.6;
 }
+/* #endregion=====ご利用の流れ===== */
 
-/* =========================
-   エリア
-========================= */
+/* #region=====エリア===== */
 .area-section {
     background: #fafdfb;
 }
@@ -983,10 +956,9 @@ section:target {
     margin: 0 auto 30px;
     text-align: left;
 }
+/* #endregion=====エリア===== */
 
-/* =========================
-   お客様の声
-========================= */
+/* #region=====お客様の声===== */
 .voice-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -1017,10 +989,9 @@ section:target {
     font-size: 13px;
     color: #777;
 }
+/* #endregion=====お客様の声===== */
 
-/***************************
-   初心者向け
-***************************/
+/* #region=====初心者向け===== */
 .beginner-section {
     padding-top: 0;
 }
@@ -1047,10 +1018,9 @@ section:target {
     margin-bottom: 12px;
     font-size: 16px;
 }
+/* #endregion=====初心者向け===== */
 
-/* =========================
-   メッセージ
-========================= */
+/* #region=====メッセージ===== */
 .message-section {
     background: var(--main-color);
     padding: 80px 0;
@@ -1091,10 +1061,9 @@ section:target {
     margin-top: 20px;
     font-size: 18px;
 }
+/* #endregion=====メッセージ===== */
 
-/***************************
-   講師メッセージ
-***************************/
+/* #region=====講師メッセージ===== */
 .meister-text {
     max-width: 760px;
     margin: 0 auto;
@@ -1112,10 +1081,9 @@ section:target {
 .meister-message-section {
     background: #f8faf8;
 }
+/* #endregion=====講師メッセージ===== */
 
-/* =========================
-   プロフィール
-========================= */
+/* #region=====プロフィール===== */
 .profile-section {
     padding-top: 110px;
 }
@@ -1155,10 +1123,9 @@ section:target {
     font-size: 15px;
     margin-bottom: 10px;
 }
+/* #endregion=====プロフィール===== */
 
-/* =========================
-   カレンダー
-========================= */
+/* #region=====カレンダー===== */
 .calendar-section {
     background: #f8fbff;
     padding: 60px 20px;
@@ -1184,10 +1151,9 @@ section:target {
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
+/* #endregion=====カレンダー===== */
 
-/* =========================
-   お問い合わせ
-========================= */
+/* #region=====お問い合わせ===== */
 .cta-band {
     background: #f0fdf4;
     padding: 80px 0;
@@ -1335,10 +1301,10 @@ form button {
     margin-top: 30px;
     width: 100%;
 }
+/* #endregion=====お問い合わせ===== */
 
-/* =========================
-   規約
-========================= */
+/* #region=====規約===== */
+
 .policy-box {
     text-align: left;
     background: #fff;
@@ -1364,10 +1330,9 @@ form button {
     width: 30%;
     text-align: center;
 }
+/* #endregion=====規約===== */
 
-/* =========================
-   固定ボタン
-========================= */
+/* #region=====固定ボタン===== */
 .floating-line {
     position: fixed;
     left: 50%;
@@ -1414,10 +1379,10 @@ form button {
 .back-to-top-fixed:hover {
     transform: translateY(-2px);
 }
+/* #endregion=====固定ボタン===== */
 
-/* =========================
-   フッター
-========================= */
+/* #region ===== フッター ===== */
+
 footer {
     background: #333;
     color: #fff;
@@ -1436,99 +1401,30 @@ footer {
     margin-top: 20px;
 }
 
-/* =========================
-   レスポンシブ
-========================= */
+/* #endregion ===== フッター ===== */
+
+/* #region ===== レスポンシブ ===== */
 
 @media (max-width: 768px) {
+
+    /* ===== 共通 ===== */
     .pc-only {
         display: none;
-    }
-
-    .hero-container {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .hero-main-title {
-        font-size: 20px;
-        line-height: 1.5;
-        padding: 0 20px;
-    }
-
-    .hero-photo-wrap {
-        position: relative;
-        margin: 0 auto;
-    }
-
-    .beginner-box {
-        padding: 24px;
-    }
-
-    .beginner-box h3 {
-        font-size: 20px;
-        line-height: 1.6;
-    }
-
-    .beginner-box p {
-        font-size: 15px;
-    }
-
-    .hero-main-title .keep-all {
-        white-space: normal;
-        /* 折り返しは許可 */
-        display: inline;
-        /* インラインに戻す */
-    }
-
-    /* 意味の区切りで改行させたい場合、ここを inline-block に維持 */
-    .hero-main-title span {
-        display: inline-block;
-    }
-
-    .trust-numbers {
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-
-    .big-free-text {
-        font-size: 18px;
-    }
-
-    .area-content {
-        padding: 22px;
-    }
-
-    .area-lead {
-        font-size: 15px;
-    }
-
-    .area-tab.main-area {
-        flex: 1.2;
-        max-width: 130px;
-        font-size: 14px;
-    }
-
-    .contact-options {
-        grid-template-columns: 1fr;
-    }
-
-    .profile-box {
-        flex-direction: column;
-        text-align: center;
     }
 
     .section {
         padding: 50px 0;
     }
 
-    .price-card.recommended {
-        border: 2px solid var(--main-color);
-        transform: scale(1.05);
-        position: relative;
-        background: linear-gradient(135deg,
-                #ffffff 0%,
-                #f0fdf4 100%);
+    /* ===== ヘッダー ===== */
+    header {
+        padding: 10px 0;
+    }
+
+    .header-layout {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
     }
 
     .main-nav {
@@ -1550,109 +1446,32 @@ footer {
         line-height: 1.3;
     }
 
-    .single-price {
-        max-width: 1000px;
-        margin: 40px auto 0;
+    /* ===== ヒーロー ===== */
+    .hero-container {
+        flex-direction: column;
+        text-align: center;
     }
 
-    .single-price .price-card:hover {
-        transform: translateY(-6px);
-        box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
-    }
-
-    .price-detail {
-        margin: 25px auto 0;
-        line-height: 2;
-        text-align: left;
-        font-size: 16px;
-        max-width: 760px;
-    }
-
-    .single-price {
-        max-width: 100%;
-        grid-template-columns: 1fr;
-    }
-
-    .single-price .price-card {
-        max-width: 100%;
-        margin: 0 auto;
-        padding: 25px;
-    }
-
-
-    .lesson-example-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .lesson-example-box {
-        padding: 25px;
-    }
-
-    .lesson-example-title {
+    .hero-main-title {
         font-size: 20px;
+        line-height: 1.5;
+        padding: 0 20px;
     }
 
-    .lesson-example-item {
-        min-height: auto;
-        padding: 18px;
+    .hero-photo-wrap {
+        position: relative;
+        margin: 0 auto;
     }
 
-    .price-first-view {
-        padding: 25px;
+    .hero-main-title .keep-all {
+        white-space: normal;
+        display: inline;
     }
 
-    .price-time-strong {
-        font-size: 38px;
+    .hero-main-title span {
+        display: inline-block;
     }
 
-    .price-price-strong {
-        font-size: 42px;
-    }
-
-    .price-value-copy {
-        font-size: 15px;
-    }
-
-    .popular-plan-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .popular-plan-box {
-        padding: 25px;
-    }
-
-    .popular-plan-title {
-        font-size: 22px;
-    }
-
-    .area-flex-container {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 24px;
-        margin-top: 40px;
-        align-items: stretch;
-    }
-
-    .flow-grid {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 12px;
-    }
-
-    .flow-card {
-        padding: 16px 12px;
-    }
-
-    .floating-line {
-        bottom: 12px;
-        width: min(92%, 420px);
-    }
-
-    .floating-line .line-btn {
-        font-size: 15px;
-        padding: 14px 16px;
-    }
-
-    /* ===== スマホ最終CV改善 ===== */
     .hero-new {
         padding: 38px 0 28px;
     }
@@ -1674,16 +1493,6 @@ footer {
         margin-top: 12px;
     }
 
-    .trust-numbers {
-        gap: 10px;
-        margin: 20px 0 24px;
-    }
-
-    .trust-numbers span {
-        font-size: 12px;
-        padding: 6px 10px;
-    }
-
     .hero-btn-main,
     .cta-line-btn {
         width: 100%;
@@ -1691,62 +1500,41 @@ footer {
         padding: 16px 18px;
     }
 
-
     .line-easy-note {
         font-size: 13px;
         line-height: 1.7;
         margin-top: 10px;
     }
 
-    .section-title {
-        font-size: 24px;
-        margin-bottom: 28px;
-    }
-
-    .voice-grid {
-        gap: 16px;
-        margin-top: 24px;
-    }
-
-    .voice-card {
-        padding: 20px;
-    }
-
-    .profile-box {
+    /* ===== 初心者向け ===== */
+    .beginner-box {
         padding: 24px;
-        border-radius: 16px;
     }
 
-    .profile-name {
-        font-size: 18px;
+    .beginner-box h3 {
+        font-size: 20px;
         line-height: 1.6;
     }
 
-    .contact-box,
-    .sub-item {
+    .beginner-box p {
+        font-size: 15px;
+    }
+
+    /* ===== 対応エリア ===== */
+    .area-content {
         padding: 22px;
     }
 
-    .lesson-time-card {
-        padding: 26px;
+    .area-lead {
+        font-size: 15px;
     }
 
-    .policy-box {
-        padding: 20px;
-    }
-
-    footer {
-        padding-bottom: 90px;
-    }
-
-    header {
-        padding: 10px 0;
-    }
-
-    .header-layout {
-        flex-direction: column;
-        gap: 10px;
-        align-items: center;
+    .area-flex-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 24px;
+        margin-top: 40px;
+        align-items: stretch;
     }
 
     .area-only-nav {
@@ -1764,6 +1552,63 @@ footer {
         min-width: auto;
     }
 
+    .area-tab.main-area {
+        flex: 1.2;
+        max-width: 130px;
+        font-size: 14px;
+    }
+
+    /* ===== 料金 ===== */
+    .single-price {
+        max-width: 1000px;
+        margin: 40px auto 0;
+    }
+
+    .single-price {
+        max-width: 100%;
+        grid-template-columns: 1fr;
+    }
+
+    .single-price .price-card {
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 25px;
+    }
+
+    .price-card.recommended {
+        border: 2px solid var(--main-color);
+        transform: scale(1.05);
+        position: relative;
+        background: linear-gradient(135deg,
+                #ffffff 0%,
+                #f0fdf4 100%);
+    }
+
+    .price-detail {
+        margin: 25px auto 0;
+        line-height: 2;
+        text-align: left;
+        font-size: 16px;
+        max-width: 760px;
+    }
+
+    .price-first-view {
+        padding: 25px;
+    }
+
+    .price-time-strong {
+        font-size: 38px;
+    }
+
+    .price-price-strong {
+        font-size: 42px;
+    }
+
+    .price-value-copy {
+        font-size: 15px;
+    }
+
+    /* ===== コース選び ===== */
     .extension-grid {
         flex-direction: column;
     }
@@ -1778,6 +1623,101 @@ footer {
         font-size: 20px;
     }
 
+    /* ===== 練習内容 ===== */
+    .lesson-example-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .lesson-example-box {
+        padding: 25px;
+    }
+
+    .lesson-example-title {
+        font-size: 20px;
+    }
+
+    .lesson-example-item {
+        min-height: auto;
+        padding: 18px;
+    }
+
+    .lesson-time-card {
+        padding: 26px;
+    }
+
+    .popular-plan-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .popular-plan-box {
+        padding: 25px;
+    }
+
+    .popular-plan-title {
+        font-size: 22px;
+    }
+
+    /* ===== サポート体制 ===== */
+    .flow-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+    }
+
+    .flow-card {
+        padding: 16px 12px;
+    }
+
+    /* ===== お客様の声 ===== */
+    .voice-grid {
+        gap: 16px;
+        margin-top: 24px;
+    }
+
+    .voice-card {
+        padding: 20px;
+    }
+
+    /* ===== 講師プロフィール ===== */
+    .profile-box {
+        padding: 24px;
+        border-radius: 16px;
+    }
+
+    .profile-box {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile-name {
+        font-size: 18px;
+        line-height: 1.6;
+    }
+
+    /* ===== お問い合わせ ===== */
+    .contact-options {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-box,
+    .sub-item {
+        padding: 22px;
+    }
+
+    form {
+        padding: 0 16px;
+    }
+
+    /* ===== その他 ===== */
+    .floating-line {
+        bottom: 12px;
+        width: min(92%, 420px);
+    }
+
+    .floating-line .line-btn {
+        font-size: 15px;
+        padding: 14px 16px;
+    }
+
     .calendar-wrap iframe {
         height: 500px !important;
     }
@@ -1786,11 +1726,17 @@ footer {
         font-size: 14px;
     }
 
-    form {
-        padding: 0 16px;
+    .policy-box {
+        padding: 20px;
+    }
+
+    footer {
+        padding-bottom: 90px;
     }
 }
+/* #endregion ===== レスポンシブ ===== */
 
+/* ===== 小型スマホ ===== */
 @media (max-width: 600px) {
 
     form input,
@@ -1800,3 +1746,17 @@ footer {
         padding: 16px;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
