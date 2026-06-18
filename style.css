@@ -567,25 +567,7 @@ section:target {
     gap: 18px;
 }
 
-.extension-item {
-    width: 400px;
-    background: #f8faf8;
-    padding: 20px;
-    border-radius: 14px;
-    text-align: center;
-}
 
-.extension-item h4 {
-    color: var(--main-color);
-    margin-bottom: 8px;
-}
-
-.extension-note {
-    text-align: center;
-    font-size: 14px;
-    color: #666;
-    line-height: 1.8;
-}
 
 .lesson-time-section {
     padding: 50px 0;
@@ -754,39 +736,8 @@ section:target {
     padding-left: 15px;
 }
 
-.lesson-example-box {
-    margin: 40px 0;
-    padding: 35px;
-    background: linear-gradient(135deg, #ffffff 0%, #f0fdf4 100%);
-    border: 2px solid var(--main-color);
-    border-radius: 20px;
-    text-align: left;
-}
 
-.lesson-example-title {
-    font-size: 24px;
-    margin-bottom: 10px;
-    color: var(--main-color);
-    text-align: center;
-}
 
-.lesson-example-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 18px;
-}
-
-.lesson-example-item {
-    background: #fff;
-    padding: 20px;
-    border-radius: 14px;
-    font-weight: bold;
-    line-height: 1.7;
-    min-height: 82px;
-    display: flex;
-    align-items: center;
-    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
-}
 
 .line-easy-note {
     margin-top: 12px;
@@ -1020,48 +971,7 @@ section:target {
 }
 /* #endregion=====初心者向け===== */
 
-/* #region=====メッセージ===== */
-.message-section {
-    background: var(--main-color);
-    padding: 80px 0;
-    color: #fff;
-}
 
-.message-card {
-    background: #fff;
-    color: var(--text-color);
-    padding: 40px;
-    border-radius: 20px;
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-.message-tag {
-    color: var(--main-color);
-    font-weight: bold;
-    display: block;
-    margin-bottom: 10px;
-}
-
-.message-title {
-    font-size: 24px;
-    margin-bottom: 20px;
-}
-
-.highlight-text {
-    font-size: 20px;
-    font-weight: bold;
-    color: var(--accent-color);
-    margin: 20px 0;
-}
-
-.message-signature {
-    text-align: right;
-    font-weight: bold;
-    margin-top: 20px;
-    font-size: 18px;
-}
-/* #endregion=====メッセージ===== */
 
 /* #region=====講師メッセージ===== */
 .meister-text {
