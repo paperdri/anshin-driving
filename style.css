@@ -970,8 +970,18 @@ section:target {
     font-size: 16px;
 }
 /* #endregion=====初心者向け===== */
+/* #region=====運転相談室===== */
+.hero-btn-main {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
 
+    padding: 14px 24px;
+    width: auto;
 
+    text-align: center;
+}
+/* #endregion=====運転相談室===== */
 
 /* #region=====講師メッセージ===== */
 .meister-text {
